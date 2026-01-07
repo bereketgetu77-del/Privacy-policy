@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Expense Tracker</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .privacy-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 2rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(10px);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        .header h1 {
+            color: #4facfe;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .header p {
+            color: #666;
+            font-size: 1.1rem;
+        }
+
+        .last-updated {
+            text-align: center;
+            background: #f8f9fa;
+            padding: 0.5rem;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+            font-weight: bold;
+            color: #666;
+        }
+
+        .content-section {
+            margin-bottom: 2rem;
+        }
+
+        .content-section h2 {
+            color: #333;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .content-section h3 {
+            color: #555;
+            margin: 1.5rem 0 0.5rem 0;
+        }
+
+        .content-section p {
+            margin-bottom: 1rem;
+            color: #555;
+        }
+
+        .content-section ul {
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .content-section li {
+            margin-bottom: 0.5rem;
+            color: #555;
+        }
+
+        .highlight-box {
+            background: #e7f3ff;
+            border-left: 4px solid #4facfe;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+        }
+
+        .contact-info {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 10px;
+            text-align: center;
+            margin-top: 2rem;
+        }
+
+        .contact-info a {
+            color: #4facfe;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .back-to-app {
+            display: inline-block;
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 1rem;
+            transition: transform 0.2s;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .back-to-app:hover {
+            transform: translateY(-2px);
+            text-decoration: none;
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+            .privacy-container {
+                padding: 1.5rem;
+                margin: 10px;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+        }
+
+        .section-highlight {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            padding: 1rem;
+            border-radius: 8px;
+            margin: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="privacy-container">
+        <div class="header">
+            <h1>🔒 Privacy Policy</h1>
+            <p>Expense Tracker - Your Financial Privacy Matters</p>
+        </div>
+
+        <div class="last-updated">
+            Last Updated: <span id="currentDate"></span>
+        </div>
+
+        <div class="content-section">
+            <h2>Introduction</h2>
+            <p>Welcome to Expense Tracker. We are committed to protecting your privacy and ensuring transparency about how we handle your data. This Privacy Policy explains our practices regarding the collection, use, and disclosure of information when you use our application.</p>
+            
+            <div class="highlight-box">
+                <strong>🌟 Important:</strong> Expense Tracker is designed with privacy as a core principle. All your financial data remains on your device and is never transmitted to our servers.
+            </div>
+        </div>
+
+        <div class="content-section">
+            <h2>Data Collection and Storage</h2>
+            
+            <h3>What We Collect</h3>
+            <p>Expense Tracker collects and stores the following information <strong>locally on your device</strong>:</p>
+            <ul>
+                <li>Transaction descriptions and amounts</li>
+                <li>Income and expense categories</li>
+                <li>Transaction dates and types</li>
+                <li>Your financial balance calculations</li>
+            </ul>
+
+            <div class="section-highlight">
+                <strong>📍 Local Storage Only:</strong> All your financial data is stored exclusively in your device's browser local storage. We do not have access to this information.
+            </div>
+
+            <h3>What We Don't Collect</h3>
+            <ul>
+                <li>Personal identification information</li>
+                <li>Bank account details</li>
+                <li>Location data</li>
+                <li>Device information</li>
+                <li>Usage analytics</li>
+            </ul>
+        </div>
+
+        <div class="content-section">
+            <h2>Data Usage</h2>
+            <p>The data collected is used solely for the following purposes:</p>
+            <ul>
+                <li>Displaying your financial transactions and balances</li>
+                <li>Calculating income and expense summaries</li>
+                <li>Generating export files (Excel/PDF) for your personal use</li>
+                <li>Providing the core expense tracking functionality</li>
+            </ul>
+        </div>
+
+        <div class="content-section">
+            <h2>Data Sharing and Disclosure</h2>
+            <p><strong>We do not share, sell, or disclose your data to any third parties.</strong> Your financial information remains private and secure on your device.</p>
+            
+            <p>The only exception is when you choose to use the export features (Excel/PDF), which generates files stored locally on your device, or when you use the social sharing features, which follow the privacy policies of the respective platforms (Telegram, WhatsApp, Twitter).</p>
+        </div>
+
+        <div class="content-section">
+            <h2>Data Security</h2>
+            <p>Since all data is stored locally on your device, the security of your information depends on your device's security measures. We recommend:</p>
+            <ul>
+                <li>Keeping your device and browser updated</li>
+                <li>Using device security features (passcodes, biometrics)</li>
+                <li>Being cautious when sharing exported files</li>
+            </ul>
+        </div>
+
+        <div class="content-section">
+            <h2>Your Rights</h2>
+            <p>You have full control over your data:</p>
+            <ul>
+                <li><strong>Access:</strong> View all your data within the app</li>
+                <li><strong>Modification:</strong> Edit or delete any transaction</li>
+                <li><strong>Deletion:</strong> Clear all data by clearing your browser storage</li>
+                <li><strong>Export:</strong> Download your data in Excel or PDF format</li>
+            </ul>
+        </div>
+
+        <div class="content-section">
+            <h2>Changes to This Policy</h2>
+            <p>We may update this Privacy Policy from time to time. We will notify you of any changes by updating the "Last Updated" date at the top of this policy. We encourage you to review this Privacy Policy periodically.</p>
+        </div>
+
+        <div class="content-section">
+            <h2>Contact Information</h2>
+            <p>If you have any questions or concerns about this Privacy Policy or our data practices, please contact us:</p>
+            
+            <div class="contact-info">
+                <p><strong>📧 Email:</strong> <a href="mailto:bereketgetu77@gmail.com">bereketgetu77@gmail.com</a></p>
+                <p><strong>👨‍💻 Developer:</strong> Bereket Getu</p>
+                <p>We typically respond within 24-48 hours.</p>
+                
+                <button class="back-to-app"><a href="https://bereketgetu77-del.github.io/Expense-tracker/">← Back to Expense Tracker </a></button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Update current date
+        document.getElementById('currentDate').textContent = new Date().toLocaleDateString('en-US', { 
+            year: 'numeric', 
+            month: 'long', 
+            day: 'numeric' 
+        });
+
+        // Function to go back to the main app
+        // function goBackToApp() {
+            // Try to get the main app URL from referrer or use a default
+            // const mainAppUrl = document.referrer || 'index.html';
+            
+            // If we came from the main app, go back
+            // if (document.referrer && document.referrer.includes('index.html')) {
+            //     window.history.back();
+            // } else {
+                // Otherwise, redirect to the main app
+        //         window.location.href = 'index.html';
+        //     }
+        // }
+
+        // Also make the back button work with browser back button
+        function handleBackButton() {
+            if (window.history.length > 1) {
+                window.history.back();
+            } else {
+                window.location.href = 'index.html';
+            }
+        }
+
+        // Alternative: If you know your exact app URL, you can use this:
+        function redirectToMainApp() {
+            // Replace this with your actual app URL when you host it
+            const appUrl = 'index.html'; // Change to your hosted URL like 'https://yourapp.com'
+            window.location.href = appUrl;
+        }
+    </script>
+</body>
+</html>
